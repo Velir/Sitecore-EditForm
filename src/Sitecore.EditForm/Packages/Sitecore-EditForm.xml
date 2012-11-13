@@ -1,0 +1,103 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore-EditForm</PackageName>
+      <Author>Velir</Author>
+      <Version>1.2</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Editors/Items/Edit/{AB630422-4AC3-4360-9181-26B24B894D10}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Folder/__Standard Values/{FC118F80-8638-483C-A810-214E91F69CA4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Templates/Standard template/__Standard Values/{CD679862-C43E-433F-9B0E-354FF48361EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/{F57E6EEE-9E9F-4423-A538-39D33C7EEDC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/Copy Button/{E7C598EE-F083-4AB1-BD32-774CD12A6358}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/Cut Button/{46CA6E42-FD04-4349-8429-53FCE1D32BAC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/Delete Button/{70068A09-51A1-4116-A652-00774F3BDAF3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/{F0FC45B3-A535-4F60-A1EA-7A1CC232FE80}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/__Standard Values/{CD808272-D917-40F4-BB05-637D97B85584}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/{09980A14-FEDA-4987-A86D-7BAAFA02738A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/Data/{0DCB786D-4B73-4996-881B-AFE231FFB7E0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/Data/Click/{E649BF95-C1B3-473F-A8D2-D42D04A91863}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/Data/Description/{7ECE7067-FFEA-499C-8E0F-5392CD71CF48}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/Data/Image Path/{037BB201-0CAA-41AE-B8B5-95BDB6C705EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Button/Data/Title/{BB9205A1-1B8C-4745-A404-E3DA3A3D7038}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Module/__Standard Values/{33213DC3-DC96-4D1F-95FF-206D45E18EEE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Common/Edit Form/Edit Form Module/{C8886860-B74F-4C1C-99B9-9AA531A94B54}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/{F57E6EEE-9E9F-4423-A538-39D33C7EEDC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/Copy Button/{E7C598EE-F083-4AB1-BD32-774CD12A6358}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/Cut Button/{46CA6E42-FD04-4349-8429-53FCE1D32BAC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Edit Form/Delete Button/{70068A09-51A1-4116-A652-00774F3BDAF3}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/EditForm.config</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Edit.css</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Edit.js</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Edit.xaml.xml</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Images/</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Images/copy.png</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Images/cut.png</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Editors/Edit/Images/error.png</x-item>
+        <x-item>/bin/Sitecore.SharedSource.Commons.dll</x-item>
+        <x-item>/bin/Sitecore.SharedSource.EditForm.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

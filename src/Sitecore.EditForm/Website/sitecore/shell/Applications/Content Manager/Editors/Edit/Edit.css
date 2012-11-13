@@ -1,0 +1,12 @@
+﻿a.scTileItem 
+{
+	display:block;
+	margin: 4px;
+}
+
+a.scTileItem.selected
+{
+	background: none repeat scroll 0 0 #C2D8E1;
+	border: 1px solid #AFC2CA;
+	padding:4px;
+}
