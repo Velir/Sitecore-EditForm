@@ -2,14 +2,14 @@
   <Metadata>
     <metadata>
       <PackageName>Sitecore-EditForm</PackageName>
-      <Author>Velir</Author>
+      <Author>Tim Braga</Author>
       <Version>1.2</Version>
       <Revision />
       <License />
       <Comment />
       <Attributes />
       <Readme />
-      <Publisher />
+      <Publisher>Velir</Publisher>
       <PostStep />
       <PackageID />
     </metadata>

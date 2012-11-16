@@ -19,7 +19,7 @@ using Sitecore.Web.UI.Sheer;
 using Sitecore.Web.UI.XamlSharp.Xaml;
 using Version = Sitecore.Data.Version;
 
-namespace Velir.SitecoreLibrary.Modules.EditForm.CustomSitecore.Applications.Content_Editor.Editors
+namespace Sitecore.SharedSource.EditForm.CustomSitecore.Applications.Content_Editor.Editors
 {
 	public class EditForm : XamlMainControl, IHasCommandContext
 	{
